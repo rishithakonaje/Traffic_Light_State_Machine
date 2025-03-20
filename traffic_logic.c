@@ -16,7 +16,7 @@ void next_state(TrafficLightFSM *fsm) {
         case YELLOW_EW:
             fsm->current_state = GREEN_NS;
             break;
-        default:  // Handle invalid states
+        default:  //invalid states
             fsm->current_state = GREEN_NS;
             printf("Warning: Invalid state encountered. Resetting to GREEN_NS.\n");
             break;
