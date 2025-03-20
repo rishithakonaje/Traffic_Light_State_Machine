@@ -37,6 +37,10 @@ To test the traffic light simulation with cases:
 ```
 .\test_traffic
 ```
+To clean any unecessary files after the compilation:
+```
+make clean
+```
 
 ## Implementation Details
 ### Traffic Light States
