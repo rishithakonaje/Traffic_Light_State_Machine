@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>  // For sleep()
+#include <unistd.h>  
 #include "traffic.h"
 
 int main() {
