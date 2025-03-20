@@ -1,13 +1,11 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -pedantic
-
-all: traffic test
-
-traffic: traffic_main.o traffic_logic.o
-	$(CC) $(CFLAGS) -o traffic traffic_main.o traffic_logic.o
+CFLAGS = -Wall -Wextra
 
 test: test_traffic.o traffic_logic.o
 	$(CC) $(CFLAGS) -o test_traffic test_traffic.o traffic_logic.o
+
+traffic: traffic_main.o traffic_logic.o
+	$(CC) $(CFLAGS) -o traffic traffic_main.o traffic_logic.o
 
 traffic_logic.o: traffic_logic.c traffic.h
 	$(CC) $(CFLAGS) -c traffic_logic.c -o traffic_logic.o
@@ -26,6 +24,4 @@ test_run: test
 
 clean:
 	rm -f *.o traffic test_traffic
-
-
 

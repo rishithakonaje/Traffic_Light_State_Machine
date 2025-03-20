@@ -31,7 +31,7 @@ Start the traffic light simulation with:
 make run
 ```
 - The console will display the current traffic light state every 3 seconds.
-- To exit, press **`q`**.
+- To exit, press **`Ctrl+C`**.
 
 ## Implementation Details
 ### Traffic Light States
