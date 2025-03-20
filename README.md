@@ -6,7 +6,6 @@ This project implements a finite state machine (FSM) for a traffic light system 
 ### Features
 - Finite State Machine (FSM) implementation for traffic light transitions.
 - Real-time simulation of traffic light changes.
-- User-friendly exit mechanism (Press 'q' to stop).
 - Test suite included for verifying correct state transitions.
 - Makefile support for easy compilation and testing.
 
@@ -59,8 +58,7 @@ YELLOW_EW → East-West Yellow, North-South Red
   - Displays the current state of the traffic light system.
 - main()
   - Runs the FSM in a loop with a 3-second delay.
-  - Allows user to exit the simulation by pressing 'q'.
-
+    
 ## Future Enhancements
 - Add pedestrian signals with wait buttons.
 - Introduce timing adjustments for peak and off-peak hours.
