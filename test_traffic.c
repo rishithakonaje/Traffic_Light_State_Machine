@@ -25,7 +25,7 @@ void test_traffic() {
     assert(fsm.current_state == GREEN_NS);
 
     // Edge case: invalid state handling
-    fsm.current_state = 99; // Simulate an incorrect state
+    fsm.current_state = 99; // Incorrect state
     next_state(&fsm);
     printf("State after invalid state correction: %d\n", fsm.current_state);
     assert(fsm.current_state == GREEN_NS);
