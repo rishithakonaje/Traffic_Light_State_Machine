@@ -35,7 +35,7 @@ make run
 
 To test the traffic light simulation with cases:
 ```
-.\test_traffic
+./test_traffic
 ```
 To clean any unecessary files after the compilation:
 ```
