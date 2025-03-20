@@ -33,6 +33,11 @@ make run
 - The console will display the current traffic light state every 3 seconds.
 - To exit, press **`Ctrl+C`**.
 
+To test the traffic light simulation with cases:
+```
+.\test_traffic
+```
+
 ## Implementation Details
 ### Traffic Light States
 The FSM cycles through the following states:
