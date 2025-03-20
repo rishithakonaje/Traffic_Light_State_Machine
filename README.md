@@ -62,3 +62,4 @@ YELLOW_EW → East-West Yellow, North-South Red
 ## Future Enhancements
 - Add pedestrian signals with wait buttons.
 - Introduce timing adjustments for peak and off-peak hours.
+- Add real time durations for state switch.
